@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* *{
+    border: 1px solid red;
+} */
+body{
+    background-color: #373636;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    margin:10px 0;
+    font-family: inherit;
+    padding: 10px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.btn:hover{
+    border-radius: 0px;
+    cursor: pointer;
+    color: rgb(19, 19, 19);
+    border: 2px solid rgb(0, 0, 0); 
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 600px;
+    display: flex;
+    margin: 50px auto;
+}
+.header__myphoto{
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px black;
+}
+
+.header__textcontent{
+    margin-top: 50px;
+    margin-left: 20px;
+ }
+ .header__title{
+    text-align: center;
+ }
+.discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #636363;
+    border-radius: 15px;
+    text-align: center;
+}
+.sosal{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.sosal a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all .2s;
+}
+.sosal a:hover{
+    color:gray;
+}
+.sosal a:active{
+    color:rgb(208, 27, 27);
+}
+.sosal a:visited{
+    color:rgb(0, 0, 0);
+}
+.sosal__links a{
+    margin-left: 10px;
+}
+.sosal__links a:first-child{
+    margin-left: 0;
+}
+.hobby{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8c468a;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.mywork{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8c468a;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.mywork__table{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+.mywork__table th{
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+} 
+.mywork__table tr:nth-child(even) {
+    background-color: rgb(41, 41, 41);
+    padding: 5px;
+} 
+.mywork__table td{
+    cursor: pointer;
+} 
+.mywork__table td:hover{
+    background-color: rgb(62, 3, 64);
+    font-size: 1.5rem;
+    
+} 
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #636363;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width:650px){
+    .container{
+        max-width: 400px;
+    }
+    .header__myphoto{
+        width: 300px;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    .header__textcontent{
+        margin: 0 auto;
+    }
+}
