@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* *{
-    border: 1px solid red;
-} */
+
 body{
     background-color: #373636;
     color: white;
@@ -53,40 +51,33 @@ body{
  .header__title{
     text-align: center;
  }
-.discription{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #636363;
-    border-radius: 15px;
-    text-align: center;
-}
-.sosal{
+
+.contacts{
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
-.sosal a{
+.contacts a{
     text-decoration: none;
     color: white;
     cursor: pointer;
     transition: all .2s;
 }
-.sosal a:hover{
+.contacts a:hover{
     color:gray;
 }
-.sosal a:active{
+.contacts a:active{
     color:rgb(208, 27, 27);
 }
-.sosal a:visited{
+.contacts a:visited{
     color:rgb(0, 0, 0);
 }
-.sosal__links a{
+.contacts__links a{
     margin-left: 10px;
 }
-.sosal__links a:first-child{
+.contacts__links a:first-child{
     margin-left: 0;
 }
 .hobby{
